@@ -172,6 +172,7 @@ class ParkingPermitKioskFrame extends JFrame implements ActionListener
 			String str;
 			while(dis.available() != 0)
 			{
+				
 				HashMap<String,String> informationMap = new HashMap<String,String>();
 				str = dis.readLine();
 				
